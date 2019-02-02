@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rent-a-car</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script type="text/javascript" src = "../JS/vozilaJS.js"></script>
+    <script type="text/javascript" src = "../JS/servisJS.js"></script>
+</head>
+<body onload="generisanjeNavBar();dodavanjeVozila()">
+    <header>
+        <h1>Dobrodosli u dodavanje novog servisa!</h1>
+    </header>
+    <div id="navBar">
+
+    </div>
+    <div id="container">
+        <article>
+            <center>
+                Izaberite vozilo:
+                <br>
+                <select class="ui" id="izaberiVozilo">
+
+                </select>
+                <br>
+                <br>
+                Unesite datum:
+                <br>
+                <input type="date" class="ui" id="unosDatuma">
+                <br>
+                <br>
+                Broj predjenih km:
+                <br>
+                <input type="number" class="ui" id="unosPredjenihKm">
+                <br>
+                <br>
+                <button onclick="proveriPodatke()">Dodaj Servis!</button>
+                <br>
+                <br>
+                <a href="servisGET.html">Prikazi sve servise!</a>
+            </center>
+        </article>
+    </div>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+</body>
+</html>

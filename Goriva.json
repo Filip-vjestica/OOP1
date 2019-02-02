@@ -1,0 +1,19 @@
+{
+  "gorivaWrapp" : [ {
+    "class" : "Gorivo",
+    "naziv" : "Benzin",
+    "cena" : 140.5
+  }, {
+    "class" : "Gorivo",
+    "naziv" : "Dizel",
+    "cena" : 148.0
+  }, {
+    "class" : "Gorivo",
+    "naziv" : "Nema",
+    "cena" : 0.0
+  }, {
+    "class" : "Gorivo",
+    "naziv" : "Gas",
+    "cena" : 100.0
+  } ]
+}

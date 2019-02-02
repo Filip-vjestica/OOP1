@@ -1,0 +1,69 @@
+body{
+    background-color: lightblue;    
+}
+
+header{
+    padding: 0.3em;
+    background-color:lightblue;
+    clear: left;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    clear: left;
+}
+#odjava{
+    visibility: hidden;
+}
+h1{
+    font-size: 300%;
+}
+#korisnickoIme,#korisnickaLozinka,#lozinka,#jmbg,#ime,#prezime,#brojTelefona,#drzavljanstvo {
+    border:2px solid red;
+    border-radius: 4px;
+    width: 15%;
+    height: 25px;
+}
+#login{
+    left: 21%;
+    top: 60%;
+    width: 40%;
+}
+footer{
+    position: relative;
+    top: 90%;
+}
+#container{
+    margin-top:2%;
+}
+
+
+#navBar {
+    overflow: hidden;
+    background-color: rgb(167, 44, 44);
+}
+
+#navBar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#navBar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+#navBar a.active {
+    background-color: #4CAF50;
+    color: lightgreen;
+}
+.ui{
+    border:2px solid red;
+    border-radius: 4px;
+    width: 15%;
+    height: 25px;
+}

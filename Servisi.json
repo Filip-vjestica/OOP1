@@ -1,0 +1,120 @@
+{
+  "servisi" : [ {
+    "class" : "Servis",
+    "vozilo" : {
+      "class" : "PutnickoVozilo",
+      "vrstaVozila" : "Putnicko Vozilo",
+      "regBR" : 2425,
+      "gorivo" : {
+        "class" : "Gorivo",
+        "naziv" : "Benzin",
+        "cena" : 140.5
+      },
+      "brServisa" : 3,
+      "potrosnja100" : 6.1,
+      "predjeno" : 160000,
+      "preServis" : 5000,
+      "cenaServis" : 10000,
+      "cenaDan" : 2500,
+      "brSedist" : 4,
+      "brVrata" : 4,
+      "vozObrisano" : false
+    },
+    "datumServis" : "15/07/2017",
+    "brPredjenihKm" : 150000
+  }, {
+    "class" : "Servis",
+    "vozilo" : {
+      "class" : "TeretnoVozilo",
+      "vrstaVozila" : "Teretno Vozilo",
+      "regBR" : 5253,
+      "gorivo" : {
+        "class" : "Gorivo",
+        "naziv" : "Dizel",
+        "cena" : 148.0
+      },
+      "brServisa" : 4,
+      "potrosnja100" : 7.0,
+      "predjeno" : 200000,
+      "preServis" : 3000,
+      "cenaServis" : 12000,
+      "cenaDan" : 3200,
+      "brSedist" : 4,
+      "brVrata" : 4,
+      "vozObrisano" : false,
+      "maxMasauKg" : 2225,
+      "visinauM" : 2.200000047683716
+    },
+    "datumServis" : "13/05/2016",
+    "brPredjenihKm" : 120000
+  }, {
+    "class" : "Servis",
+    "vozilo" : {
+      "class" : "Bicikl",
+      "vrstaVozila" : "Bicikl",
+      "regBR" : 6576,
+      "gorivo" : {
+        "class" : "Gorivo",
+        "naziv" : "Nema",
+        "cena" : 0.0
+      },
+      "brServisa" : 2,
+      "potrosnja100" : 0.0,
+      "predjeno" : 1500,
+      "preServis" : 100,
+      "cenaServis" : 1500,
+      "cenaDan" : 500,
+      "brSedist" : 1,
+      "brVrata" : 0,
+      "vozObrisano" : false
+    },
+    "datumServis" : "10/10/2015",
+    "brPredjenihKm" : 1399
+  }, {
+    "class" : "Servis",
+    "vozilo" : {
+      "class" : "Bicikl",
+      "vrstaVozila" : "Bicikl",
+      "regBR" : 6666,
+      "gorivo" : {
+        "class" : "Gorivo",
+        "naziv" : "Nema",
+        "cena" : 0.0
+      },
+      "brServisa" : 3,
+      "potrosnja100" : 0.0,
+      "predjeno" : 1200,
+      "preServis" : 250,
+      "cenaServis" : 1500,
+      "cenaDan" : 600,
+      "brSedist" : 1,
+      "brVrata" : 0,
+      "vozObrisano" : false
+    },
+    "datumServis" : "15/10/2016",
+    "brPredjenihKm" : 1000
+  }, {
+    "class" : "Servis",
+    "vozilo" : {
+      "class" : "PutnickoVozilo",
+      "vrstaVozila" : "Putnicko Vozilo",
+      "regBR" : 2425,
+      "gorivo" : {
+        "class" : "Gorivo",
+        "naziv" : "Benzin",
+        "cena" : 140.5
+      },
+      "brServisa" : 3,
+      "potrosnja100" : 6.1,
+      "predjeno" : 160000,
+      "preServis" : 5000,
+      "cenaServis" : 10000,
+      "cenaDan" : 2500,
+      "brSedist" : 4,
+      "brVrata" : 4,
+      "vozObrisano" : false
+    },
+    "datumServis" : "2019-01-01",
+    "brPredjenihKm" : 150000
+  } ]
+}

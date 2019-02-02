@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Rent-a-car</title>
+        <link rel="stylesheet" href="../css/style.css">
+        <script type="text/javascript" src = "../JS/vozilaJS.js"></script>
+    </head>
+    <body onload="generisanjeNavBar();generisanjeGoriva()">
+            <header>
+                <h1>Dobrodosli u dodavanje novog vozila!</h1>
+            </header>
+            <div id="navBar">
+
+            </div>
+            <div id="container">
+            <article>
+                <center>
+                Tip vozila: 
+                <br>
+                <select class="ui" id="odabirVozila">
+                    <option value="Bicikl">Bicikl</option>
+                    <option value="Putnicko Vozilo">Putnicko</option>
+                    <option value="Teretno Vozilo">Teretno</option>
+                </select>
+                <br>
+                <br>
+                Goriva:
+                <br>
+                <select class="ui" id="izborGoriva">
+
+                </select>
+                <br>
+                <br>
+                Registarski broj: 
+                <br>
+                <input type="text" name="regBR" id="regBR" placeholder="..." class="ui">
+                <br>
+                <br>
+                Broj odradjenih servisiranja: 
+                <br>
+                <input type="number" class="ui" name="brServisa" id="brServisa" placeholder="...">
+                <br>
+                <br>
+                Potrosnja automobila na 100km: 
+                <br>
+                <input type="number" class="ui" name="potrosnja100" id="potrosnja100" placeholder="...">
+                <br>
+                <br>
+                Predjena kilometraza: 
+                <br>
+                <input type="number" class="ui" name="predjeno" id="predjeno" placeholder="...">
+                <br>
+                <br>
+                Kilometraza pre sledeceg servisa: 
+                <br>
+                <input type="number" class="ui" name="preServis" id="preServis" placeholder="...">
+                <br>
+                <br>
+                Cena servisa: 
+                <br>
+                <input type="number" class="ui" name="cenaServis" id="cenaServis" placeholder="...">
+                <br>
+                <br>
+                Cena automobila na dan u DIN : 
+                <br>
+                <input type="number" class="ui" name="cenaDan" id="cenaDan" placeholder="...">
+                <br>
+                <br>
+                Broj sedista: 
+                <br>
+                <input type="number" class="ui" name="brSedist" id="brSedist" placeholder="...">
+                <br>
+                <br>
+                Broj vrata: 
+                <br>
+                <input type="number" class="ui" name="brVrata" id="brVrata" placeholder="...">
+                <br>
+                Maximalna masa (teretnog) vozila u kg: 
+                <br>
+                <input type="number" class="ui" name="maxMasauKg" id="maxMasauKg" placeholder="...">
+                <br>
+                <br>
+                Visina (teretnog) vozila u m:
+                <br>
+                <input type="number"class="ui"  name="visinauM" id="visinauM" placeholder="..."> 
+                <br>
+                <button onclick="izborVozila()">Dodaj vozilo</button>
+                <br>
+                <br>
+                <a href="vozilaGET.html">Prikazi sva vozila</a>
+                </div>
+                <p id="demo"></p>
+                <p id="demo1"></p>
+            </center>
+            </article>
+    </body>
+</html>

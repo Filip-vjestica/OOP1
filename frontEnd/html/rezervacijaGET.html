@@ -1,0 +1,20 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <script>
+        function getData(){
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function(){
+                if(this.readyState == 4 && this.status == 200){
+                    document.getElementById("demo").innerHTML = xhttp.responseText;
+                }
+            };
+            xhttp.open("GET", "http://localhost:8080/rezervacije", true);
+            xhttp.send();
+        }
+    </script>
+    <body onload="getData()">
+        <p id="demo"></p>
+        
+    </body>
+</html>

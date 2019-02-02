@@ -1,0 +1,71 @@
+{
+  "korisnici" : [ {
+    "class" : "Sluzbenik",
+    "korisnIme" : "ime1",
+    "lozinka" : "lozinka1",
+    "jmbg" : "34532",
+    "ime" : "Marko",
+    "prezime" : "Maki",
+    "uloga" : "Sluzbenik"
+  }, {
+    "class" : "Iznajmljivac",
+    "korisnIme" : "ime2",
+    "lozinka" : "lozinka2",
+    "jmbg" : "blablajmbg",
+    "ime" : "Filip",
+    "prezime" : "fica",
+    "uloga" : "Iznajmljivac",
+    "brojTelefon" : "06333222",
+    "drzavljanstvo" : "Srbija"
+  }, {
+    "class" : "Sluzbenik",
+    "korisnIme" : "dsa",
+    "lozinka" : "dsa",
+    "jmbg" : "dsa",
+    "ime" : "dsa",
+    "prezime" : "das",
+    "uloga" : "Sluzbenik"
+  }, {
+    "class" : "Iznajmljivac",
+    "korisnIme" : "aaasss",
+    "lozinka" : "dsa",
+    "jmbg" : "dsa",
+    "ime" : "dsa",
+    "prezime" : "das",
+    "uloga" : "Iznajmljivac",
+    "brojTelefon" : "3123123",
+    "drzavljanstvo" : "dsadas"
+  }, {
+    "class" : "Sluzbenik",
+    "korisnIme" : "123",
+    "lozinka" : "123",
+    "jmbg" : "123",
+    "ime" : "123",
+    "prezime" : "123",
+    "uloga" : "Sluzbenik"
+  }, {
+    "class" : "Sluzbenik",
+    "korisnIme" : "1234",
+    "lozinka" : "1",
+    "jmbg" : "1",
+    "ime" : "1",
+    "prezime" : "1",
+    "uloga" : "Sluzbenik"
+  }, {
+    "class" : "Sluzbenik",
+    "korisnIme" : "dsa1",
+    "lozinka" : "dsa",
+    "jmbg" : "dsa",
+    "ime" : "dsa",
+    "prezime" : "dsa",
+    "uloga" : "Sluzbenik"
+  }, {
+    "class" : "Sluzbenik",
+    "korisnIme" : "1233",
+    "lozinka" : "123",
+    "jmbg" : "123",
+    "ime" : "123",
+    "prezime" : "123",
+    "uloga" : "Sluzbenik"
+  } ]
+}
